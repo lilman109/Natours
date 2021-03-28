@@ -506,7 +506,7 @@ body {
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../../img/nat-6.jpg"); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url("../../img/nat-6.jpg"); }
+      background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url("../../img/nat-7.jpg"); }
   .card__heading {
     color: #fff;
     font-size: 2.8rem;
@@ -880,7 +880,9 @@ body {
     width: 3rem;
     height: 2px;
     background-color: #333;
-    display: inline-block; }
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden; }
   .navigation__icon:before, .navigation__icon:after {
     content: '';
     position: absolute;
